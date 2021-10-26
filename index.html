@@ -1,30 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <Title>Meagan Johnsson Designer</Title> 
+    <link rel="stylesheet" href="./desktop.style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="./mobile.style.css">
 
+    <Title>Meagan Johnsson</Title> 
 </head>
+
 <body>
-    <header class="header">
-        <a href="" class="logo"> </a>
-        <h1>!Meagan Johnsson!</h1>
-        <h2>UX/UI Designer</h2>
+    <nav class="nav-bar">
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
           <li><a href="#Home">Home</a></li>
-          <li><a href="#Projects">Project</a></li>
-          <li><a href="#About me">About me</a></li>
-          <li><a href="#contact">Contact!</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#About me">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </header>
-     <footer>
-      <p>email meagandesigner@artsie.com</p><p>mobile: +41 78 833 08 13</p> 
+    </nav>
+    
+    <div class="pic-container">
+      <img class="profile-pic" src="./images/images (1).png" alt="filler icon">
+    </div>
+
+    <header>
+      
+
+      <div>
+        <h1 class="name">Meghan Johnson</h1>
+        <h3 class="tagline"><i>I'm a detail-oriented designer with a passion for problem solving.</i></h3>
+      </div>
+    </header> 
+
+    <section id="structure" class="container">
+      <div>
+        <article class="service-box">
+          <img src="./images/gnome-aisleriot-icon.png" alt="card game">
+          <h5>Project 1</h5>
+          <p>This was my very first project!</p>
+        </article>
+  
+        <article class="service-box">
+          <img src="./images/paint-icon.png" alt="paint">
+          <h5>Project 2</h5>
+          <p>Then I moved on to creating 'abc'</p>
+        </article>
+  
+        <article class="service-box">
+          <img src="images/line-icon.png" alt="line-app">
+          <h5>Project 3</h5>
+          <p>This project focused on concept 'xyz'</p>
+        </article>
+  
+        <article class="service-box">
+          <img src="./images/firefox-icon.png" alt="firefox">
+          <h5>Project 4</h5>
+          <p>My latest project was a collaborative effort with web developers</p>
+        </article>
+      </div>
+    </section>
+    
+    <footer>
+    
+        <div class="follow">
+          <h5>Follow Me!</h5>
+          <ul>
+            <li><a href="http://www.twitter.com" target="_blank" class="footer a">Twitter</a></li>
+            <li><a href="http://www.facebook.com" target="_blank" class="footer a">Facebook</a></li>
+            <li><a href="#" target="_blank" class="footer a">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <ul>
+          <li>email: meghandesigner@artsie.com</li> 
+          <li>mobile: +41 78 833 08 13</li> 
+        </ul>
+        </div>
+        
     </footer> 
 
 </body>
