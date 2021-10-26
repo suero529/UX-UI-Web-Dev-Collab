@@ -279,5 +279,28 @@ footer {
 }
 
 .design {
-  width: 600px;
+  width: 460px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: thistle;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: dodgerblue;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin-bottom: 100px;
 }
