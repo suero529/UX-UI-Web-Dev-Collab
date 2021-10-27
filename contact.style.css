@@ -19,8 +19,14 @@ section {
 .contact-info ul li {
   background-color: yellow;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
+}
+
+.big-box {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
 }
 
 .social-media {
@@ -42,10 +48,13 @@ section {
   padding-right: 150px;
 }
 
-.get-in-touch {
-  font-size: 300%;
+.get-in-box {
   display: flex;
-  justify-content: last baseline;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.get-in-touch {
+  font-size: 3em;
 }
 
 /* picture */
