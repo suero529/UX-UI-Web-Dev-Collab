@@ -33,9 +33,7 @@ section {
   display: flex;
   justify-content: flex-end;
   gap: 80px;
-  padding-top: 150px;
-  padding-right: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   list-style: none;
 }
 
