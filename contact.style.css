@@ -13,24 +13,35 @@ section {
   align-items: center;
   column-gap: 40vh;
   padding-top: 20px;
-}
-
-.contact-info {
-  background-color: pink;
-  display: flex;
-  justify-content: center;
+  font-size: 200%;
 }
 
 .contact-info ul li {
   background-color: yellow;
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 
 .social-media {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 20px;
+  justify-content: flex-end;
+  gap: 80px;
+  padding-top: 150px;
+  padding-right: 550px;
+  padding-bottom: 50px;
+  list-style: none;
+}
+
+.contact-info {
+  background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 600px;
+}
+
+.get-in-touch {
+  font-size: 300%;`
 }
 
 /* picture */
