@@ -9,11 +9,19 @@ section {
 
 .profession-name {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  column-gap: 40vh;
+  padding-top: 20px;
 }
 .contact-info {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+/* picture */
+.profile-pic {
+  border-radius: 50%;
 }
