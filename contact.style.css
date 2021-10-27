@@ -1,5 +1,4 @@
 body {
-  background-color: chartreuse;
   align-items: center;
 }
 
@@ -13,7 +12,20 @@ section {
   flex-direction: column;
   align-items: center;
 }
+
 .contact-info {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info ul li {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
   display: flex;
   justify-content: space-evenly;
 }
