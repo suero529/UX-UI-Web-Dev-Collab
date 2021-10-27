@@ -26,21 +26,24 @@ section {
 .big-box {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: lightblue;
+  border: 1px solid black;
 }
 
 .social-media {
   display: flex;
   justify-content: flex-end;
-  gap: 80px;
   padding-bottom: 0px;
+  align-items: center;
   list-style: none;
 }
 
-.contact-info {
-  background-color: pink;
+.contact-info-right {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  background-color: pink;
   justify-content: flex-end;
   align-items: flex-end;
   padding-right: 150px;
@@ -58,4 +61,7 @@ section {
 /* picture */
 .profile-pic {
   border-radius: 50%;
+}
+.pic-container {
+  background-color: black;
 }

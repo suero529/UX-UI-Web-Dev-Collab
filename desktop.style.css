@@ -249,6 +249,10 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: pink;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 150px;
 }
 
 .contact-info ul li {
