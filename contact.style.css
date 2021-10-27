@@ -19,7 +19,7 @@ section {
 .contact-info ul li {
   background-color: yellow;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   list-style: none;
 }
 
@@ -28,7 +28,7 @@ section {
   justify-content: flex-end;
   gap: 80px;
   padding-top: 150px;
-  padding-right: 550px;
+  padding-right: 100px;
   padding-bottom: 50px;
   list-style: none;
 }
@@ -36,12 +36,16 @@ section {
 .contact-info {
   background-color: pink;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
-  padding-right: 600px;
+  align-items: flex-end;
+  padding-right: 150px;
 }
 
 .get-in-touch {
-  font-size: 300%;`
+  font-size: 300%;
+  display: flex;
+  justify-content: last baseline;
 }
 
 /* picture */

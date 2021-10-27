@@ -247,7 +247,8 @@ footer {
 
 .contact-info {
   display: flex;
-  text-align: right;
+  flex-direction: column;
+  text-align: ;
 }
 
 .contact-info ul li {
