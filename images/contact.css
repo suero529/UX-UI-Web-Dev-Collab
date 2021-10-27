@@ -1,0 +1,15 @@
+head {
+  background-color: aqua;
+}
+
+body {
+  background-color: chartreuse;
+}
+
+section {
+  background-color: darkolivegreen;
+}
+
+h2 {
+  display: inline-block;
+}
