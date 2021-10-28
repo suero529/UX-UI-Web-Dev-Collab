@@ -512,19 +512,21 @@ footer {
 }
 
 .heading-box {
-  height: 27vw;
+  height: 35vw;
   background-color: lightgray;
 
 }
 
 .mac {
-  width: 48%;
+  width: 100%;
+  height: 100%;
 }
 
 .p1-description-1 {
   height: 38vw;
   background-color: #FFFCE8;
   padding-bottom: 4.5vw;
+  font-family: 'Poppins', sans-serif;
 }
 
 .p1-para-1 {
@@ -533,6 +535,7 @@ footer {
   line-height: 2.3vw;
   letter-spacing: 0.8px;
   color: #641E21;
+  font-family: 'Poppins', sans-serif;
 }
 
 .p1-para-2 {
@@ -541,6 +544,7 @@ footer {
   line-height: 2.3vw;
   letter-spacing: 0.8px;
   color: #641E21;
+  font-family: 'Poppins', sans-serif;
 }
 
 .dur-role-collab {
@@ -548,6 +552,9 @@ footer {
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2.3vw;
+  letter-spacing: 0.8px;
 }
 
 .duration-heading {
@@ -557,6 +564,7 @@ footer {
   font-weight: bold;
   margin-top: 8vw;
   color: #641E21;
+  font-family: 'Poppins', sans-serif;
 }
 
 .five-months {
@@ -564,6 +572,7 @@ footer {
   justify-content: center;
   color: #641E21;
   font-size: 26px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .role-heading {
@@ -573,6 +582,7 @@ footer {
   font-weight: bold;
   margin-top: 8vw;
   color: #641E21;
+  font-family: 'Poppins', sans-serif;
 }
 
 .jr-ux-designer {
@@ -580,6 +590,7 @@ footer {
   justify-content: center;
   color: #641E21;
   font-size: 26px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .collab-heading {
@@ -589,6 +600,7 @@ footer {
   font-weight: bold;
   margin-top: 8vw;
   color: #641E21;
+  font-family: 'Poppins', sans-serif;
 }
 
 .kim-cheng {
@@ -596,6 +608,11 @@ footer {
   justify-content: center;
   color: #641E21;
   font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.post-its {
+  width: 35%;
 }
 
 /*  PROJECT 2  */
