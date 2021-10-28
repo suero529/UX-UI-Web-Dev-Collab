@@ -351,6 +351,12 @@ footer {
   line-height: 2vw;
   padding-top: 1.3vw;
 }
+.paragraph-3 {
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  padding-top: 1.3vw;
+}
 
 .resume-container {
   display: flex;
