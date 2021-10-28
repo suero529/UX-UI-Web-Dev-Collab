@@ -476,6 +476,7 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  width: 300px;
 }
 
 .contact-info-right {
