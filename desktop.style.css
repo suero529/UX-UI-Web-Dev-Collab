@@ -299,6 +299,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-left:295px;
 }
 
 .about-image {
@@ -327,16 +328,18 @@ footer {
 .about-heading {
   font-size: 50px;
   margin-top: 8vw;
-  color: #919191;
+  color: #fffce8;
 }
 
 .about-paragraph {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:column;
+  justify-content:flex-start;
   margin-right: 10vw;
   width: 30vw;
   padding-bottom: 25px;
+  padding-top:294px;
+  padding-left: 60
 }
 
 .paragraph-1 {
@@ -530,7 +533,13 @@ footer {
   width: auto;
   height: 100%;
 }
-
+#about-box{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+text-align: left;
+}
 .about-heading-box {
   height: 40vw;
   background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
