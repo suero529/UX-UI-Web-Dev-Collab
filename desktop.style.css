@@ -311,7 +311,8 @@ footer {
   width: 48%;
 }
 
-.design-image {
+/*  IMAGE FROM DESIGNERS  */
+. {
   display: flex;
   justify-content: center;
   align-items: center;
