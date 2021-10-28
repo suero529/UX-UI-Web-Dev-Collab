@@ -4,11 +4,10 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
-  height: 1000px;
-  position: relative;
-  width: 1860px;
-  height: 4171px;
   background: linear-gradient(180deg, #641E21 31.25%, #EDA5A5 100%);
+  position: relative;
+  height: auto;
+  width: auto; 
 }
 
 a {
@@ -279,7 +278,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: ;
-  color: #EDA5A5;
+  color: #3A3C3C;
   font-size: 2vw;
   padding-bottom: 50px;
   padding-right: 40px;
@@ -492,7 +491,7 @@ footer {
   padding-top: 100px;
   line-height: 35px;
   font-size: 1.75vw;
-  color: #f8caca;
+  color: #3A3C3C;
   letter-spacing: 1px;
 }
 
