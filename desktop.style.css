@@ -5,7 +5,10 @@ body {
   min-height: 100vh;
   font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
   height: 1000px;
-  background-color: #641e21;
+  position: relative;
+  width: 1860px;
+  height: 4171px;
+  background: linear-gradient(180deg, #641E21 31.25%, #EDA5A5 100%);
 }
 
 a {
