@@ -462,7 +462,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .get-in-touch {
