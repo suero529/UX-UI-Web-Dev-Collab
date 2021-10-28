@@ -531,6 +531,19 @@ footer {
   height: 100%;
 }
 
+.about-heading-box {
+  height: 40vw;
+  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.megan-hiking {
+  width: auto;
+  height: 60%;
+}
+
 .p1-description-1 {
   height: 38vw;
   background-color: #FFFCE8;
