@@ -503,6 +503,7 @@ footer {
   display: flex;
   justify-content: center;
   list-style: none;
+  padding-bottom: 30px;
 }
 
 /*  PROJECT 1  */
@@ -513,12 +514,14 @@ footer {
 
 .heading-box {
   height: 35vw;
-  background-color: lightgray;
-
+  background-image: url(./images/mac\ pro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mac {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
