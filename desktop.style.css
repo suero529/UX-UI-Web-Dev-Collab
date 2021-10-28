@@ -505,6 +505,34 @@ footer {
   display: block;
 }
 
+.heading-box {
+  height: 27vw;
+  background-color: lightgray;
+
+}
+
+.p1-description-1 {
+  height: 38vw;
+  background-color: #FFFCE8;
+  padding-bottom: 4.5vw;
+}
+
+.p1-para-1 {
+  font-size: 1.6vw;
+  padding: 4.5vw 9vw 0 9vw;
+  line-height: 2.3vw;
+  letter-spacing: 0.8px;
+  color: #641E21;
+}
+
+.p1-para-2 {
+  font-size: 1.6vw;
+  padding: 4vw 9vw 0 9vw;
+  line-height: 2.3vw;
+  letter-spacing: 0.8px;
+  color: #641E21;
+}
+
 /*  PROJECT 2  */
 
 .project-2-block {
