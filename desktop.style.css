@@ -8,6 +8,7 @@ body {
   position: relative;
   height: auto;
   width: auto; 
+  color:#641E21;
 }
 
 a {
@@ -172,9 +173,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
   margin-top: 5px;
   font-size: 5vw;
-  color: #EDA5A5;
+  color: #FFFCE8;
   letter-spacing: 2px;
   text-shadow: 0 0 10px #fc558d;
 }
@@ -183,11 +185,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
   margin-top: 55px;
   font-size: 1.65vw;
   letter-spacing: 1.7px;
   text-shadow: 0 0 10px #000000;
-  color: rgb(151, 151, 151)
+  color: #FFFCE8;
 }
 
 .service-box {
@@ -441,18 +444,18 @@ footer {
   
 }
 
-.profession-name {
+/* .profession-name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFCE8;
   column-gap: 40vh;
   padding: 5px 0 120px;
   font-size: 5em;;
   letter-spacing: 2px;;
-  font-weight: bold;
-  color: #EDA5A5;
-}
+} */
 
 .big-box {
   display: flex;
@@ -513,6 +516,10 @@ footer {
 
 }
 
+.mac {
+  width: 48%;
+}
+
 .p1-description-1 {
   height: 38vw;
   background-color: #FFFCE8;
@@ -533,6 +540,61 @@ footer {
   line-height: 2.3vw;
   letter-spacing: 0.8px;
   color: #641E21;
+}
+
+.dur-role-collab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.duration-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 8vw;
+  color: #641E21;
+}
+
+.five-months {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 26px;
+}
+
+.role-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 8vw;
+  color: #641E21;
+}
+
+.jr-ux-designer {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 26px;
+}
+
+.collab-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 8vw;
+  color: #641E21;
+}
+
+.kim-cheng {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 26px;
 }
 
 /*  PROJECT 2  */
