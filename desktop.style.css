@@ -7,16 +7,18 @@ body {
   background: linear-gradient(180deg, #641E21 31.25%, #EDA5A5 100%);
   position: relative;
   height: auto;
-  width: auto; 
-  color:#641E21;
+  width: auto;
+  color: #641e21;
 }
 
 a {
-  color: #EDA5A5;
+  color: #eda5a5;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:hover,
+a:visited,
+a:link,
+a:active {
   text-decoration: none;
 }
 
@@ -36,15 +38,15 @@ p {
   position: fixed;
   width: 100%;
   z-index: 3;
-  background-color: #641E21;
+  background-color: #641e21;
 }
 
-#logo{ 
-	position: fixed; 
-	top: 0.3vw; 
-	left: 0.3vw; 
+#logo {
+  position: fixed;
+  top: 0.3vw;
+  left: 0.3vw;
   left: 1vw;
-} 
+}
 
 .nav-bar ul {
   margin: 0;
@@ -186,10 +188,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 5px;
   font-size: 5vw;
-  color: #FFFCE8;
+  color: #fffce8;
   letter-spacing: 2px;
   text-shadow: 0 0 10px #fc558d;
 }
@@ -198,12 +200,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 55px;
   font-size: 1.65vw;
   letter-spacing: 1.7px;
   text-shadow: 0 0 10px #000000;
-  color: #FFFCE8;
+  color: #fffce8;
 }
 
 .row {
@@ -214,13 +216,13 @@ header {
 
 #projects {
   text-align: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-top: 1.5vw;
   margin-bottom: -5vw;
 }
 
 .project-link {
-  color:#FFFCE8;
+  color: #fffce8;
 }
 
 .project-1 {
@@ -273,7 +275,7 @@ header {
 }
 
 .project-description {
-  color: #3A3C3C;
+  color: #3a3c3c;
   font-size: 1.3vw;
   padding-top: 25px;
   line-height: 1.85vw;
@@ -293,9 +295,6 @@ footer {
   align-items: flex-end;
 }
 
-.follow {
-}
-
 .follow ul {
   display: flex;
   justify-content: space-evenly;
@@ -312,8 +311,7 @@ footer {
 .contact-info {
   display: flex;
   flex-direction: column;
-  text-align: ;
-  color: #3A3C3C;
+  color: #3a3c3c;
   font-size: 2vw;
   padding-bottom: 50px;
   padding-right: 40px;
@@ -338,12 +336,12 @@ footer {
 
 .about-heading-box {
   height: 40vw;
-  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
+  background-image: url(./images/attractions-in-north-georgia-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-  
+
 .megan-hiking {
   width: auto;
   height: 60%;
@@ -368,27 +366,27 @@ footer {
   font-size: 4vw;
   margin-top: 5.25vw;
   color: #fffce8;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  letter-spacing: .1vw;
+  letter-spacing: 0.1vw;
 }
 
 .about-paragraph {
   display: flex;
-  flex-direction:column;
-  justify-content:flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-right: 10vw;
   width: 37vw;
   padding-bottom: 25px;
   padding-top: 294px;
-  padding-left: 60
+  padding-left: 60;
 }
 
 .paragraph-1 {
   margin-top: 1vw;
   font-size: 1.3vw;
   line-height: 2.2vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.02vw;
 }
 
@@ -397,14 +395,14 @@ footer {
   font-size: 1.3vw;
   line-height: 2.2vw;
   padding-top: 1.3vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .paragraph-3 {
   margin-top: 1vw;
   font-size: 1.3vw;
   line-height: 2.2vw;
   padding-top: 1.3vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .resume-container {
@@ -427,7 +425,7 @@ footer {
 /*  CONTACT PAGE  */
 
 .profile-pic {
-  padding: 70px 0 35px; 0;
+  padding: 70px 0 35px 0;
 }
 
 .big-box {
@@ -448,7 +446,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 5vw;
-  color: #FFFCE8;
+  color: #fffce8;
   letter-spacing: 2.3px;
 }
 
@@ -468,9 +466,9 @@ footer {
   align-items: center;
   padding-right: 150px;
   padding-top: 10px;
-  line-height: 15px;
+  line-height: 30px;
   font-size: 1.75vw;
-  color: #FFFCE8;
+  color: #fffce8;
   letter-spacing: 1px;
 }
 
@@ -478,7 +476,6 @@ footer {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-bottom: 30px;
 }
 
 /*  PROJECT 1  */
@@ -502,9 +499,9 @@ footer {
 
 .p1-description-1 {
   height: 32vw;
-  background-color: #FFFCE8;
+  background-color: #fffce8;
   padding-bottom: 4.5vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .p1-para-1 {
@@ -512,8 +509,8 @@ footer {
   padding: 3.5vw 9vw 0 9vw;
   line-height: 2.3vw;
   letter-spacing: 0.8px;
-  color: #641E21;
-  font-family: 'Poppins', sans-serif;
+  color: #641e21;
+  font-family: "Poppins", sans-serif;
 }
 
 .p1-para-2 {
@@ -521,8 +518,8 @@ footer {
   padding: 2.5vw 9vw 0 9vw;
   line-height: 2.3vw;
   letter-spacing: 0.8px;
-  color: #641E21;
-  font-family: 'Poppins', sans-serif;
+  color: #641e21;
+  font-family: "Poppins", sans-serif;
 }
 
 .dur-role-collab {
@@ -530,7 +527,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .duration-heading {
@@ -539,16 +536,16 @@ footer {
   font-size: 1.85vw;
   font-weight: bold;
   margin-top: 5vw;
-  color: #641E21;
-  font-family: 'Poppins', sans-serif;
+  color: #641e21;
+  font-family: "Poppins", sans-serif;
 }
 
 .five-months {
   display: flex;
   justify-content: center;
-  color: #641E21;
+  color: #641e21;
   font-size: 1.7vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .role-heading {
@@ -557,16 +554,16 @@ footer {
   font-size: 1.85vw;
   font-weight: bold;
   margin-top: 5vw;
-  color: #641E21;
-  font-family: 'Poppins', sans-serif;
+  color: #641e21;
+  font-family: "Poppins", sans-serif;
 }
 
 .jr-ux-designer {
   display: flex;
   justify-content: center;
-  color: #641E21;
+  color: #641e21;
   font-size: 1.7vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .collab-heading {
@@ -575,16 +572,16 @@ footer {
   font-size: 1.85vw;
   font-weight: bold;
   margin-top: 5vw;
-  color: #641E21;
-  font-family: 'Poppins', sans-serif;
+  color: #641e21;
+  font-family: "Poppins", sans-serif;
 }
 
 .kim-cheng {
   display: flex;
   justify-content: center;
-  color: #641E21;
+  color: #641e21;
   font-size: 1.7vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .post-its-section {
@@ -621,7 +618,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6vw;
   padding-right: 9vw;
   line-height: 2vw;
@@ -642,7 +639,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6vw;
   line-height: 2vw;
   width: 33vw;
@@ -665,7 +662,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
 }
 
 .phone-mac {
@@ -674,14 +670,14 @@ footer {
   justify-content: center;
   padding-left: 13vw;
   width: 67%;
-  height: 100%
+  height: 100%;
 }
 
 .cash-flow {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6vw;
   line-height: 2vw;
   width: 35vw;
@@ -689,7 +685,7 @@ footer {
 }
 
 .cash-flow-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6vw;
   line-height: 2vw;
   padding: 4vw 13vw;
@@ -701,16 +697,11 @@ footer {
 }
 
 .new-project {
-  font-family: 'Poppins', sans-serif;
-  color: #3A3C3C;
+  font-family: "Poppins", sans-serif;
+  color: #3a3c3c;
   font-size: 1.8vw;
   letter-spacing: 0.1vw;
   display: flex;
   justify-content: flex-end;
   padding: 5vw 15vw;
 }
-
-
-
-
-
