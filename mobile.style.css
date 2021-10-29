@@ -440,49 +440,57 @@ footer {
 /*  CONTACT PAGE  */
 
 .profile-pic {
-  padding: 70px 0 35px; 0;
+  padding: 50px 0 5px; 0;
 }
 
 .big-box {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
 .get-in-box {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding-top: 0px;
 }
 
 .get-in-touch {
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
   color: #FFFCE8;
   letter-spacing: 2.3px;
+  line-height: 15vw;
 }
 
 .contact-social-media {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 200px;
+  margin-top: 5vw;
+  margin-right: 0vw;
+  margin-bottom: 5vw;
 }
 
 .contact-info-right {
   display: flex;
   flex-direction: row;
-  text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-right: 150px;
+  padding-right: 0px;
   padding-top: 10px;
   line-height: 15px;
-  font-size: 1.75vw;
+  font-size: 5vw;
   color: #FFFCE8;
   letter-spacing: 1px;
 }
