@@ -239,12 +239,6 @@ img {
   width: 100%;
 }
 
-.mobile-mac {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .project-2 {
   display: flex;
   flex-direction: column;
@@ -252,12 +246,6 @@ img {
   align-items: center;
   font-size: 3.5vw;
   font-weight: bold;
-}
-
-.mobile-apple-watch {
-  width: 100%;
-  display: flex;
-  justify-content: center; 
 }
 
 .project-3 {
