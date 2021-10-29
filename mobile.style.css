@@ -319,47 +319,37 @@ img {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
-  align-items: flex-end;
-}
-
-.follow {
-}
-
-.follow ul {
-  display: flex;
-  justify-content: space-evenly;
-  line-height: 30px;
-}
-
-.follow ul li {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .social-media {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-
+  width: 400px;
 }
 
 .contact-info {
   display: flex;
-  flex-direction: column;
-  text-align: ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #3A3C3C;
-  font-size: 2vw;
+  font-size: 5vw;
   padding-bottom: 50px;
-  padding-right: 40px;
   letter-spacing: 1px;
+  width: 400px;
+  padding-left: 7vw;
 }
 
 .contact-info ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   list-style: none;
   line-height: 30px;
 }
