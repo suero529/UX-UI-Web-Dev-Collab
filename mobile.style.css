@@ -1,12 +1,23 @@
+/*  HOME PAGE  */
+
 body {
   margin: 0;
   min-height: 100vh;
   font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
-  height: 1000px;
+  background: linear-gradient(180deg, #641E21 31.25%, #EDA5A5 100%);
+  position: relative;
+  height: auto;
+  width: auto; 
+  color:#641E21;
 }
 
 a {
-  color: #000;
+  color: #EDA5A5;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
 }
 
 h5 {
@@ -15,29 +26,38 @@ h5 {
 
 p {
   font-size: 18px;
+  color: #fffce8;
 }
 
-/* nav-bar */
+/*  NAV-BAR  */
 
 .nav-bar {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 3;
+  background-color: #641E21;
 }
+
+#logo{ 
+	position: fixed; 
+	top: 0.3vw; 
+	right: 0.3vw; 
+  right: 1vw;
+} 
 
 .nav-bar ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #641e21;
 }
 
 .nav-bar li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border-right: none;
   text-decoration: none;
 }
 
@@ -46,7 +66,7 @@ p {
   background-color: #f4f4f4;
 }
 
-/* menu */
+/*  MENU  */
 
 .nav-bar .menu {
   clear: both;
@@ -54,7 +74,7 @@ p {
   transition: max-height 0.2s ease-out;
 }
 
-/* menu icon */
+/*  MENU ICON  */
 
 .nav-bar .menu-icon {
   cursor: pointer;
@@ -93,7 +113,7 @@ p {
   top: -5px;
 }
 
-/* menu btn */
+/*  MENU BUTTON  */
 
 .nav-bar .menu-btn {
   display: none;
@@ -139,10 +159,6 @@ p {
   }
 }
 
-nav-bar:not(.nav-bar) {
-  background: blue;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -156,37 +172,101 @@ header {
 .profile-pic {
   display: flex;
   justify-content: center;
-  margin-top: 75px;
+  margin-top: 70px;
+  width: 55%;
+  height: 55%;
+  border-radius: 100%;
 }
 
 .name {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+  font-size: 7vw;
+  color: #FFFCE8;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #fc558d;
 }
 
 .tagline {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  inline-size: 350px;
+  text-align:center;
+  line-height: 5vw;;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 55px;
+  font-size: 3.2vw;
+  letter-spacing: 1.7px;
+  text-shadow: 0 0 10px #000000;
+  color: #FFFCE8;
 }
 
-.service-box {
-  font-size: 1.7em;
-  text-align: center;
-  border: 2px solid #eee;
-  border-radius: 20px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 10px 0 #eee;
-  margin: 50px 5% 50px 5%;
-  padding: 20px 20px 20px 20px;
-  width: 30%;
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 6vw;
 }
 
-.service-box:hover {
-  animation: shake 0.5s;
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1.5vw;
+  margin-bottom: -5vw;
+}
+
+.project-link {
+  color:#FFFCE8;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.mobile-mac {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.mobile-apple-watch {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+.project-3 {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+/* #projects:hover {
+  animation: shake 0.1s;
 
   animation-iteration-count: infinite;
 }
@@ -209,10 +289,21 @@ header {
   80% {
     transform: translateX(10px);
   }
-}
+} */
 
 .service-box img {
   width: 125px;
+}
+
+.project {
+  padding-top: 30px;
+}
+
+.project-description {
+  color: #3A3C3C;
+  font-size: 1.3vw;
+  padding-top: 25px;
+  line-height: 1.85vw;
 }
 
 #structure div {
@@ -247,7 +338,13 @@ footer {
 
 .contact-info {
   display: flex;
-  text-align: right;
+  flex-direction: column;
+  text-align: ;
+  color: #3A3C3C;
+  font-size: 2vw;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  letter-spacing: 1px;
 }
 
 .contact-info ul li {
@@ -255,52 +352,387 @@ footer {
   line-height: 30px;
 }
 
-/*  about page  */
+/*  ABOUT PAGE  */
 
-#about-box div {
+#about-box {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 295px;
+  text-align: left;
 }
 
-.about-box {
+.about-heading-box {
+  height: 40vw;
+  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
+.megan-hiking {
+  width: auto;
+  height: 60%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-size: 1.7em;
   text-align: center;
   border: 2px solid #eee;
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 0 #eee;
-  margin: 50px 5% 50px 5%;
+  margin: 120px 5% 50px 5%;
   padding: 20px 20px 20px 20px;
-  width: 40%;
-  display: flex;
-  flex-direction: row;
+  width: 48%;
 }
 
-.design {
-  width: 460px;
+.about-heading {
+  font-size: 4vw;
+  margin-top: 5.25vw;
+  color: #fffce8;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  letter-spacing: .1vw;
+}
+
+.about-paragraph {
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  margin-right: 10vw;
+  width: 37vw;
+  padding-bottom: 25px;
+  padding-top: 294px;
+  padding-left: 60
+}
+
+.paragraph-1 {
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  line-height: 2.2vw;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.02vw;
+}
+
+.paragraph-2 {
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  line-height: 2.2vw;
+  padding-top: 1.3vw;
+  font-family: 'Poppins', sans-serif;
+}
+.paragraph-3 {
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  line-height: 2.2vw;
+  padding-top: 1.3vw;
+  font-family: 'Poppins', sans-serif;
 }
 
 .resume-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 15vw;
 }
 
-.button {
-  background-color: thistle;
-  border: none;
-  padding: 15px;
-  font-size: 18px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: dodgerblue;
-  width: 200px;
-  height: 60px;
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  gap: 80px;
+  padding-top: 150px;
+  padding-right: 550px;
+  padding-bottom: 50px;
+  list-style: none;
+}
+
+/*  CONTACT PAGE  */
+
+.profile-pic {
+  padding: 70px 0 35px; 0;
+}
+
+.big-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.get-in-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 0px;
+}
+
+.get-in-touch {
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 5vw;
+  color: #FFFCE8;
+  letter-spacing: 2.3px;
+}
+
+.contact-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+.contact-info-right {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  border: 2px solid #eee;
-  border-radius: 20px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 10px 0 #eee;
-  margin-bottom: 100px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 150px;
+  padding-top: 10px;
+  line-height: 15px;
+  font-size: 1.75vw;
+  color: #FFFCE8;
+  letter-spacing: 1px;
+}
+
+.contact-info-right ul li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+/*  PROJECT 1  */
+
+.project-1-block {
+  display: block;
+}
+
+.heading-box {
+  height: 35vw;
+  background-image: url(./images/mac\ pro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mac {
+  width: auto;
+  height: 100%;
+}
+
+.p1-description-1 {
+  height: 32vw;
+  background-color: #FFFCE8;
+  padding-bottom: 4.5vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p1-para-1 {
+  font-size: 1.6vw;
+  padding: 3.5vw 9vw 0 9vw;
+  line-height: 2.3vw;
+  letter-spacing: 0.8px;
+  color: #641E21;
+  font-family: 'Poppins', sans-serif;
+}
+
+.p1-para-2 {
+  font-size: 1.6vw;
+  padding: 2.5vw 9vw 0 9vw;
+  line-height: 2.3vw;
+  letter-spacing: 0.8px;
+  color: #641E21;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dur-role-collab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
+}
+
+.duration-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.85vw;
+  font-weight: bold;
+  margin-top: 5vw;
+  color: #641E21;
+  font-family: 'Poppins', sans-serif;
+}
+
+.five-months {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 1.7vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.role-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.85vw;
+  font-weight: bold;
+  margin-top: 5vw;
+  color: #641E21;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jr-ux-designer {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 1.7vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.collab-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.85vw;
+  font-weight: bold;
+  margin-top: 5vw;
+  color: #641E21;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kim-cheng {
+  display: flex;
+  justify-content: center;
+  color: #641E21;
+  font-size: 1.7vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.post-its-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 5vw;
+  gap: 10vw;
+}
+
+.post-its-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.post-its {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 20vw;
+}
+
+.amazon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 8vw;
+}
+
+.amazon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vw;
+  padding-right: 9vw;
+  line-height: 2vw;
+}
+
+.internship-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4vw;
+  gap: 2.7vw;
+}
+
+.internship-box {
+  margin-left: 13vw;
+}
+
+.internship-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vw;
+  line-height: 2vw;
+  width: 33vw;
+}
+
+.drawing {
+  width: 67%;
+}
+
+.phone-mac-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 5vw;
+  gap: 0vw;
+}
+
+.phone-mac-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.phone-mac {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 13vw;
+  width: 67%;
+  height: 100%
+}
+
+.cash-flow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vw;
+  line-height: 2vw;
+  width: 35vw;
+  padding-right: 16.5vw;
+}
+
+.cash-flow-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vw;
+  line-height: 2vw;
+  padding: 4vw 13vw;
+}
+
+.two-phones {
+  width: 72%;
+  padding-left: 13vw;
+}
+
+.new-project {
+  font-family: 'Poppins', sans-serif;
+  color: #3A3C3C;
+  font-size: 1.8vw;
+  letter-spacing: 0.1vw;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5vw 15vw;
 }
