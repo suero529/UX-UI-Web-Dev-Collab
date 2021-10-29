@@ -231,7 +231,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2vw;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 
@@ -250,7 +250,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2vw;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 
@@ -261,7 +261,11 @@ img {
 }
 
 .project-3 {
-  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 
@@ -336,6 +340,14 @@ footer {
   justify-content: space-evenly;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -354,91 +366,65 @@ footer {
 
 /*  ABOUT PAGE  */
 
+.mountain {
+  width: 175%;
+}
+
 #about-box {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 295px;
-  text-align: left;
-}
-
-.about-heading-box {
-  height: 40vw;
-  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-  
-.megan-hiking {
-  width: auto;
-  height: 60%;
-}
-
-.about-image {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 1.7em;
-  text-align: center;
-  border: 2px solid #eee;
-  border-radius: 20px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 10px 0 #eee;
-  margin: 120px 5% 50px 5%;
-  padding: 20px 20px 20px 20px;
-  width: 48%;
-}
-
-.about-heading {
-  font-size: 4vw;
-  margin-top: 5.25vw;
-  color: #fffce8;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  letter-spacing: .1vw;
+  align-items: center;
 }
 
 .about-paragraph {
   display: flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  margin-right: 10vw;
-  width: 37vw;
-  padding-bottom: 25px;
-  padding-top: 294px;
-  padding-left: 60
+  justify-content: center;
+  align-items: center;
+  padding-top: 83vw;
+  padding-right: 50vw;
 }
 
-.paragraph-1 {
-  margin-top: 1vw;
-  font-size: 1.3vw;
-  line-height: 2.2vw;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 0.02vw;
-}
-
-.paragraph-2 {
-  margin-top: 1vw;
-  font-size: 1.3vw;
-  line-height: 2.2vw;
-  padding-top: 1.3vw;
-  font-family: 'Poppins', sans-serif;
-}
-.paragraph-3 {
-  margin-top: 1vw;
-  font-size: 1.3vw;
-  line-height: 2.2vw;
-  padding-top: 1.3vw;
-  font-family: 'Poppins', sans-serif;
-}
-
-.resume-container {
+.about-heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vw;
+  font-size: 10vw;
+  margin-top: 0;
+  margin-bottom: 7vw;
+}
+
+.paragraph-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  font-size: 5vw;
+  width: 230%;
+  line-height: 6.5vw;
+}
+
+.paragraph-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 5vw;
+  line-height: 6.5vw;
+  width: 230%
+  
+}
+
+.paragraph-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 5vw;
+  line-height: 6.5vw;
+  width: 215%
 }
 
 .social-media {
