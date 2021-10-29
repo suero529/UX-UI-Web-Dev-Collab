@@ -54,6 +54,7 @@ p {
   background-color: #f4f4f4;
 }
 
+
 /*  MENU  */
 
 .nav-bar .menu {
@@ -368,7 +369,7 @@ footer {
   height: 15vw;
 }
 
-.resume-button {
+/*.resume-button {
   background-color: #3A3C3C;
   display: flex;
   justify-content: center;
@@ -385,7 +386,7 @@ footer {
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 0 #eee;
-}
+}*/
 
 .second-paragraph {
   display: flex;
@@ -426,7 +427,7 @@ footer {
   height: 15vw;
 }
 
-.lets-chat-button {
+/*.lets-chat-button {
   background-color: #FFFCE8;
   display: flex;
   justify-content: center;
@@ -443,7 +444,7 @@ footer {
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 0 #eee;
-}
+}*/
 
 /*  CONTACT PAGE  */
 
@@ -501,7 +502,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   padding-right: 139px;
-  padding-top: 100px;
+  /*padding-top: 100px*/;
   line-height: 35px;
   font-size: 1.75vw;
   color: #3A3C3C;
@@ -512,7 +513,7 @@ footer {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-bottom: 30px;
+  
 }
 
 /*  PROJECT 1  */
