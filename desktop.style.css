@@ -297,9 +297,24 @@ footer {
 
 #about-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding-left:295px;
+  align-items: flex-start;
+  padding-left: 295px;
+  text-align: left;
+}
+
+.about-heading-box {
+  height: 40vw;
+  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
+.megan-hiking {
+  width: auto;
+  height: 60%;
 }
 
 .about-image {
@@ -317,17 +332,9 @@ footer {
   width: 48%;
 }
 
-/*  IMAGE FROM DESIGNERS  */
-. {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 460px;
-}
-
 .about-heading {
   font-size: 50px;
-  margin-top: 8vw;
+  margin-top: 5.75vw;
   color: #fffce8;
 }
 
@@ -533,28 +540,9 @@ footer {
   width: auto;
   height: 100%;
 }
-#about-box{
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-text-align: left;
-}
-.about-heading-box {
-  height: 40vw;
-  background-image: url(./images/attractions-in-north-georgia-1\ \(1\).jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.megan-hiking {
-  width: auto;
-  height: 60%;
-}
 
 .p1-description-1 {
-  height: 38vw;
+  height: 32vw;
   background-color: #FFFCE8;
   padding-bottom: 4.5vw;
   font-family: 'Poppins', sans-serif;
@@ -562,7 +550,7 @@ text-align: left;
 
 .p1-para-1 {
   font-size: 1.6vw;
-  padding: 4.5vw 9vw 0 9vw;
+  padding: 3.5vw 9vw 0 9vw;
   line-height: 2.3vw;
   letter-spacing: 0.8px;
   color: #641E21;
@@ -571,7 +559,7 @@ text-align: left;
 
 .p1-para-2 {
   font-size: 1.6vw;
-  padding: 4vw 9vw 0 9vw;
+  padding: 2.5vw 9vw 0 9vw;
   line-height: 2.3vw;
   letter-spacing: 0.8px;
   color: #641E21;
@@ -584,16 +572,14 @@ text-align: left;
   justify-content: center;
   justify-content: space-evenly;
   font-family: 'Poppins', sans-serif;
-  line-height: 2.3vw;
-  letter-spacing: 0.8px;
 }
 
 .duration-heading {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 1.85vw;
   font-weight: bold;
-  margin-top: 8vw;
+  margin-top: 5vw;
   color: #641E21;
   font-family: 'Poppins', sans-serif;
 }
@@ -602,16 +588,16 @@ text-align: left;
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 26px;
+  font-size: 1.7vw;
   font-family: 'Poppins', sans-serif;
 }
 
 .role-heading {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 1.85vw;
   font-weight: bold;
-  margin-top: 8vw;
+  margin-top: 5vw;
   color: #641E21;
   font-family: 'Poppins', sans-serif;
 }
@@ -620,16 +606,16 @@ text-align: left;
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 26px;
+  font-size: 1.7vw;
   font-family: 'Poppins', sans-serif;
 }
 
 .collab-heading {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 1.85vw;
   font-weight: bold;
-  margin-top: 8vw;
+  margin-top: 5vw;
   color: #641E21;
   font-family: 'Poppins', sans-serif;
 }
@@ -638,7 +624,7 @@ text-align: left;
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 26px;
+  font-size: 1.7vw;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -648,6 +634,7 @@ text-align: left;
   justify-content: center;
   justify-content: space-between;
   padding-top: 5vw;
+  gap: 10vw;
 }
 
 .post-its-box {
@@ -657,11 +644,11 @@ text-align: left;
 }
 
 .post-its {
-  width: 75%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 8vw;
+  padding-left: 20vw;
 }
 
 .amazon-box {
@@ -677,16 +664,34 @@ text-align: left;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6vw;
+  padding-right: 9vw;
+  line-height: 2vw;
 }
 
-/*  PROJECT 2  */
-
-.project-2-block {
-  display: block;
+.internship-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4vw;
+  gap: 2.7vw;
 }
 
-/*  PROJECT 3  */
-
-.project-3-block {
-  display: block;
+.internship-box {
+  margin-left: 13vw;
 }
+
+.internship-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6vw;
+  line-height: 2vw;
+  width: 33vw;
+}
+
+.drawing {
+  width: 67%;
+
+}
+
+
