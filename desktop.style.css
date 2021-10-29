@@ -397,19 +397,13 @@ footer {
   padding-top: 1.3vw;
   font-family: "Poppins", sans-serif;
 }
+
 .paragraph-3 {
   margin-top: 1vw;
   font-size: 1.3vw;
   line-height: 2.2vw;
   padding-top: 1.3vw;
   font-family: "Poppins", sans-serif;
-}
-
-.resume-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15vw;
 }
 
 .social-media {

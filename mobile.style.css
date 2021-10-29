@@ -487,7 +487,7 @@ footer {
 }
 
 .heading-box {
-  height: 35vw;
+  height: 50vw;
   background-image: url(./images/mac\ pro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -500,42 +500,45 @@ footer {
 }
 
 .p1-description-1 {
-  height: 32vw;
+  height: auto;
   background-color: #FFFCE8;
-  padding-bottom: 4.5vw;
+  padding-bottom: 0vw;
   font-family: 'Poppins', sans-serif;
 }
 
 .p1-para-1 {
-  font-size: 1.6vw;
-  padding: 3.5vw 9vw 0 9vw;
-  line-height: 2.3vw;
+  font-size: 4vw;
+  padding: 6vw 9vw 0 15vw;
+  line-height: 6.5vw;
   letter-spacing: 0.8px;
   color: #641E21;
   font-family: 'Poppins', sans-serif;
+  width: 350px;
 }
 
 .p1-para-2 {
-  font-size: 1.6vw;
-  padding: 2.5vw 9vw 0 9vw;
-  line-height: 2.3vw;
+  font-size: 4vw;
+  padding: 2.5vw 9vw 0 15vw;
+  line-height: 6.5vw;
   letter-spacing: 0.8px;
   color: #641E21;
   font-family: 'Poppins', sans-serif;
+  width: 350px;
 }
 
 .dur-role-collab {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
   font-family: 'Poppins', sans-serif;
+  margin-top: 1vw;
 }
 
 .duration-heading {
   display: flex;
   justify-content: center;
-  font-size: 1.85vw;
+  font-size: 5.5vw;
   font-weight: bold;
   margin-top: 5vw;
   color: #641E21;
@@ -546,14 +549,14 @@ footer {
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 1.7vw;
+  font-size: 4vw;
   font-family: 'Poppins', sans-serif;
 }
 
 .role-heading {
   display: flex;
   justify-content: center;
-  font-size: 1.85vw;
+  font-size: 5.5vw;
   font-weight: bold;
   margin-top: 5vw;
   color: #641E21;
@@ -564,14 +567,14 @@ footer {
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 1.7vw;
+  font-size: 4vw;
   font-family: 'Poppins', sans-serif;
 }
 
 .collab-heading {
   display: flex;
   justify-content: center;
-  font-size: 1.85vw;
+  font-size: 5.5vw;
   font-weight: bold;
   margin-top: 5vw;
   color: #641E21;
@@ -582,69 +585,57 @@ footer {
   display: flex;
   justify-content: center;
   color: #641E21;
-  font-size: 1.7vw;
+  font-size: 4vw;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .post-its-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-between;
-  padding-top: 5vw;
-  gap: 10vw;
-}
-
-.post-its-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding-top: 15vw;
 }
 
 .post-its {
   width: 85%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  padding-left: 20vw;
+  align-items: center;
+  padding-right: vw;
 }
 
 .amazon-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding-right: 8vw;
 }
 
 .amazon {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.6vw;
-  padding-right: 9vw;
-  line-height: 2vw;
+  font-size: 4vw;
+  line-height: 6.5vw;
 }
 
 .internship-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 4vw;
   gap: 2.7vw;
 }
 
-.internship-box {
-  margin-left: 13vw;
-}
-
 .internship-description {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.6vw;
-  line-height: 2vw;
-  width: 33vw;
+  font-size: 4vw;
+  line-height: 6.5vw;
+  width: 420px;
 }
 
 .drawing {
@@ -653,7 +644,7 @@ footer {
 
 .phone-mac-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-between;
   padding-top: 5vw;
@@ -662,41 +653,43 @@ footer {
 
 .phone-mac-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
 
 }
 
 .phone-mac {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding-left: 13vw;
   width: 67%;
   height: 100%
 }
 
 .cash-flow {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.6vw;
-  line-height: 2vw;
-  width: 35vw;
-  padding-right: 16.5vw;
+  font-size: 4vw;
+  line-height: 6.5vw;
+  width: 420px;
 }
 
 .cash-flow-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.6vw;
-  line-height: 2vw;
-  padding: 4vw 13vw;
+  font-size: 4vw;
+  line-height: 6.5vw;
+  width: 420px;
 }
 
 .two-phones {
   width: 72%;
-  padding-left: 13vw;
 }
 
 .new-project {
@@ -706,5 +699,4 @@ footer {
   letter-spacing: 0.1vw;
   display: flex;
   justify-content: flex-end;
-  padding: 5vw 15vw;
 }
